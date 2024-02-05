@@ -10,6 +10,15 @@
 <body>
   <form action="script.php" method="GET">
     
+     <div class="mb-3 p-3">
+            <label for="parola" class="form-label">Parola da censurare</label>
+            <input type="text" class="form-control" name="parola">
+        </div>
+             <div class="mb-3 p-3">
+            <label for="paragrafo" class="form-label">Paragrafo</label>
+            <textarea class="form-control" name="paragrafo" rows="3"></textarea>
+        </div>
+            <button type="submit" class="btn btn-primary ms-3">Submit</button>
   </form>
 </body>
 </html>
