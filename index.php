@@ -12,11 +12,11 @@
     
      <div class="mb-3 p-3">
             <label for="parola" class="form-label">Parola da censurare</label>
-            <input type="text" class="form-control" name="parola">
+            <input type="text" class="form-control" name="parola" id="parola">
         </div>
              <div class="mb-3 p-3">
             <label for="paragrafo" class="form-label">Paragrafo</label>
-            <textarea class="form-control" name="paragrafo" rows="3"></textarea>
+            <textarea class="form-control" name="paragrafo" id="paragrafo" rows="3"></textarea>
         </div>
             <button type="submit" class="btn btn-primary ms-3">Submit</button>
   </form>
